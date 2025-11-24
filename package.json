@@ -1,0 +1,23 @@
+{
+  "name": "my-histoire-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@histoire/plugin-percy": "^1.0.0-alpha.4",
+    "@histoire/plugin-screenshot": "^1.0.0-alpha.4",
+    "@histoire/plugin-vue": "^1.0.0-alpha.4",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "axe-core": "^4.11.0",
+    "histoire": "^1.0.0-alpha.4",
+    "vite": "^7.1.7"
+  }
+}
